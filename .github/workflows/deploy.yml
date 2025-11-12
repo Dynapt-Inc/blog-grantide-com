@@ -2,7 +2,7 @@ name: Deploy to Azure Container Apps
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [main, master]
 
 concurrency:
   group: azure-deploy-${{ vars.AZURE_RESOURCE_GROUP }}-${{ github.workflow }}-blog-grantide-com-${{ github.ref_name }}
@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 20
       - name: Install
-        run: npm ci
+        run: npm install
       - name: Build with branding environment variables
         run: npm run build
         env:
