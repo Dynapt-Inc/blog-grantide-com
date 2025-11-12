@@ -1,5 +1,5 @@
 import "./globals.css";
-import brandConfig from "../brand-config";
+import { brandConfig } from "../brand-config";
 import { createBlogShell } from "@caleblawson/blog-shell";
 
 const { RootLayout, generateRootMetadata } = createBlogShell(brandConfig);

@@ -1,4 +1,4 @@
-import brandConfig from "../brand-config";
+import { brandConfig } from "../brand-config";
 import { createBlogShell } from "@caleblawson/blog-shell";
 
 const { home } = createBlogShell(brandConfig);
