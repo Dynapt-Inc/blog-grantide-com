@@ -5,7 +5,7 @@ import type { BrandConfig } from "@caleblawson/blog-shell";
 export const brandConfig: BrandConfig = {
   site: {
     siteName: "Grantide",
-    logoUrl: "/next.svg",
+    logoUrl: "/grantide logo.png",
     heroTitle: "Welcome to Grantide",
     heroSubtitle: "Discover amazing content and insights",
     heroImageUrl: "/globe.svg",
@@ -18,7 +18,7 @@ export const brandConfig: BrandConfig = {
   theme: {
     colors: {
       primary: "#3b82f6",
-      secondary: "#64748b",
+      secondary: "#24a91e",
       tertiary: "#8b5cf6",
       background: "#ffffff",
       foreground: "#000000",
